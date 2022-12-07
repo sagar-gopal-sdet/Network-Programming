@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ef507-ecde-42d2-a72d-c721acc17340" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientGoogleServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/MySqlDBConnectivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

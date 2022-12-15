@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ef507-ecde-42d2-a72d-c721acc17340" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/MySqlDBConnectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageSourceClientProgramming.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientGoogleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientGoogleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/MySqlDBConnectivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/MySqlDBConnectivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ClientGoogleServer">
     <configuration name="ClientClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientClass" />
@@ -53,6 +62,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PageSourceClientProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PageSourceClientProgramming" />
+      <module name="NwProgramming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServerCode" />
       <module name="NwProgramming" />
@@ -63,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientGoogleServer" />
+        <item itemvalue="Application.PageSourceClientProgramming" />
         <item itemvalue="Application.ClientClass" />
         <item itemvalue="Application.ServerCode" />
       </list>

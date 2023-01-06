@@ -5,44 +5,46 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.URL;
 
+import java.io.*;
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
 public class ClientGoogleServer {
-
-    public static void main(String[] args) {
-        Socket client = new Socket();
-        String url = "https://www.google.com/";
-        try{
-            client.connect(new InetSocketAddress("www.google.com",443),1000);
-            System.out.println("Connection accepted!!");
-
-            PrintStream out = new PrintStream(client.getOutputStream());
-            BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
-
-            String hostname = new URL(url).getHost();
-
-            out.println("GET / HTTP/1.0");
-            out.println("Host: " + hostname);
-
-            out.println("User-Agent: Java/19.0.1");
-            out.println("Accept-Language: en-us");
-            out.println("Accept: */*");
-            out.println("Connection: keep-alive");
-            out.println("Accept-Encoding: gzip, deflate, br");
-
-            out.println();
-
-            String line = in.readLine();
-            while (line != null) {
-                System.out.println(line);
-                line = in.readLine();
-            }
-
-            in.close();
-            out.close();
-            client.close();
-
-
-        }catch(Exception e){
-            System.out.println(false + "," +e.getMessage());
+    public static void main(String[] args) throws IOException
+    {
+        Socket s = new Socket();
+        String host = "www.google.com";
+        PrintWriter out = null;
+        BufferedReader in = null;
+        try
+        {
+            s.connect(new InetSocketAddress(host , 80));
+            System.out.println("Connection established");
+            //writer for socket
+            out = new PrintWriter( s.getOutputStream(), true);
+            //reader for socket
+            in = new BufferedReader(new InputStreamReader(s.getInputStream()));
         }
+        //Host not found
+        catch (UnknownHostException e)
+        {
+            System.err.println("Don't know about host : " + host);
+            System.exit(1);
+        }
+        //Send message to server
+        String message = "GET / HTTP/1.1\r\n\r\n";
+        out.println( message );
+        System.out.println("Request sent");
+        //Get response from server
+        String response;
+        while ((response = in.readLine()) != null)
+        {
+            System.out.println( response );
+        }
+        out.close();
+        in.close();
+//close the socket
+        s.close();
     }
 }

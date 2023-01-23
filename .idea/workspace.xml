@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ef507-ecde-42d2-a72d-c721acc17340" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/connectionthreads/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connectionthreads/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClientGoogleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientGoogleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +48,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClientGoogleServer">
-    <configuration name="ClientClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.client">
+    <configuration name="ClientClass" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientClass" />
-      <module name="NwProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientGoogleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClientGoogleServer" />
-      <module name="NwProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageSourceClientProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PageSourceClientProgramming" />
       <module name="NwProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,12 +63,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connectionthreads.client" />
+      <module name="NwProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connectionthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connectionthreads.server" />
+      <module name="NwProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connectionthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connectionthreads.server" />
+      <module name="NwProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connectionthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.client" />
+      <item itemvalue="Application.ClientClass" />
+      <item itemvalue="Application.server (2)" />
+      <item itemvalue="Application.server (3)" />
+      <item itemvalue="Application.ServerCode" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientGoogleServer" />
-        <item itemvalue="Application.PageSourceClientProgramming" />
+        <item itemvalue="Application.client" />
+        <item itemvalue="Application.server (2)" />
         <item itemvalue="Application.ClientClass" />
         <item itemvalue="Application.ServerCode" />
+        <item itemvalue="Application.server (3)" />
       </list>
     </recent_temporary>
   </component>

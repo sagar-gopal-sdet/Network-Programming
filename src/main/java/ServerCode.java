@@ -11,13 +11,14 @@ public class ServerCode {
         try {
             ServerSocket server = new ServerSocket(4000);
             System.out.println("Waiting for client");
-            Socket s = server.accept();
-            System.out.println("Server is connected");
+
 
             String receivedText = "";
 
 
             while(!receivedText.equalsIgnoreCase("over and out")) {
+                Socket s = server.accept();
+                System.out.println("Server is connected");
                 /*Code to tranfer text to client*/
                 Scanner sc = new Scanner(System.in);
                 PrintWriter pw = new PrintWriter(s.getOutputStream());
